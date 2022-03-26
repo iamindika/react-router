@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import URLParams from './components/URLParams';
 
 function App(props) {
-  return(
-    <h1>React Router Demo!</h1>
-  )
+  return <URLParams/>
 }
 
 ReactDOM.render(<App/>, document.getElementById("app"));
